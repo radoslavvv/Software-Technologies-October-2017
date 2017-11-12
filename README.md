@@ -4,7 +4,7 @@
 <h1><strong>Exercises:</strong></h1>
 
 <ol type="1">
-	<li></li>
+	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/Exercises/01.HTMLandCSS-Exercises">HTML and CSS - Exercises</li>
 </ol>
 
 <h1><strong>Exam:</strong></h1>
