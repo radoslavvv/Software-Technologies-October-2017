@@ -1,0 +1,24 @@
+p{
+    background: lightgray;
+    border-radius: 30px;
+    padding: 15px;
+    text-align: center;
+}
+#redText{
+    color:red;
+}
+#greenText{
+    color:green;
+}
+#blueText{
+    color:blue;
+}
+#redBorder{
+    border: solid red;
+}
+#greenBorder{
+    border: solid green;
+}
+#blueBorder{
+    border: solid blue;
+}

@@ -1,0 +1,18 @@
+#first{
+    border: dotted 3px blue;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#second{
+    border: dashed 3px red;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+#third{
+    border: solid 3px green;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
