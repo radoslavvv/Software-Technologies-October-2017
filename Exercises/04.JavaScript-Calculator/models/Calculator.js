@@ -6,49 +6,47 @@ function Calculator(leftOperand, operator, rightOperand) {
     this.calculateResult = function () {
         let result = 0;
 
-        switch (this.operator) {
-            case '+':
-                result = this.leftOperand + this.rightOperand;
-                break;
-            case '-':
-                result = this.leftOperand - this.rightOperand;
-                break;
-            case '*':
-                result = this.leftOperand * this.rightOperand;
-                break;
-            case '/':
-                result = this.leftOperand / this.rightOperand;
-                break;
-            case '^':
-                result = Math.pow(this.leftOperand, this.rightOperand);
-                break;
-            case 'AND':
-            case 'OR':
-            case 'XOR':
-                result = bitwise(this.leftOperand, this.operator, this.rightOperand);
-                break;
-        }
-        return result;
+        let arithmeticOperators = ['+', '-', '*', '/', '^'];
+        let bitwiseOperators = ['AND', 'OR', 'XOR'];
+        let conversionOperators = ['2', '10', '16'];
 
-        function bitwise(leftOperand, operator, rightOperand) {
-            let result = 0;
-            if ((rightOperand === 0 || rightOperand === 1) && (leftOperand === 0 || leftOperand === 1)) {
-                switch (operator) {
-                    case 'AND':
-                        result = rightOperand && leftOperand;
+        if(arithmeticOperators.includes(this.operator)){
+                switch (this.operator){
+                    case '+':
+                        result = this.leftOperand + this.rightOperand;
                         break;
-                    case 'OR':
-                        result = rightOperand || leftOperand;
+                    case '-':
+                        result = this.leftOperand - this.rightOperand;
                         break;
-                    case 'XOR':
-                        result = rightOperand ^ leftOperand;
+                    case '*':
+                        result = this.leftOperand * this.rightOperand;
+                        break;
+                    case '/':
+                        result = this.leftOperand / this.rightOperand;
+                        break;
+                    case '^':
+                        result = Math.pow(this.leftOperand, this.rightOperand);
                         break;
                 }
-            } else {
-                result = "Error";
-            }
-            return result;
         }
+        else if(bitwiseOperators.includes(this.operator)){
+                switch (this.operator) {
+                    case 'AND':
+                        result = this.rightOperand && this.leftOperand;
+                        break;
+                    case 'OR':
+                        result = this.rightOperand || this.leftOperand;
+                        break;
+                    case 'XOR':
+                        result = this.rightOperand ^ this.leftOperand;
+                        break;
+                }
+        }
+        else if(conversionOperators.includes(this.operator)){
+            result = parseInt(this.leftOperand, this.operator).toString(this.rightOperand);
+        }
+
+        return result;
     };
 
 }
