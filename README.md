@@ -7,9 +7,9 @@
 
  <h1><strong>Exercises:</strong></h1>
 
-<ol type="I">
+<ol>
     <li>HTML and CSS:</li>
-        <ol type="1">
+        <ol type="I">
             <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/01.HTMLandCSS-Exercises">HTML and CSS - Exercises</a></li>
             <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/02.HTMLandCSS-Blog">HTML and CSS - Blog</a></li>
         </ol>
