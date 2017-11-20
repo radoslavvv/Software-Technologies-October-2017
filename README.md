@@ -9,10 +9,11 @@
 
 <ol type="1">
 	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/01.HTMLandCSS-Exercises">HTML and CSS - Exercises</li>
-	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/02.HTMLandCSS-Blog">HTML and CSS - Exercises</li>
-	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript-Syntax-Lab">JavaScript Syntax - Lab</li>
-	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.JavaScript-Syntax-Exercises">JavaScript Syntax - Exercises</li>
-	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.JavaScript-Calculator">JavaScript Calculator</li>
+	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/02.HTMLandCSS-Blog">HTML and CSS - Blog</li>
+	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/01.JavaScript-Syntax-Lab">JavaScript Syntax - Lab</li>
+	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/02.JavaScript-Syntax-Exercises">JavaScript Syntax - Exercises</li>
+	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/03.JavaScript-Calculator">JavaScript - Calculator</li>
+	<li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/04.JavaScript-Blog">JavaScript - Blog</li>
 </ol>
 
 <h1><strong>Exam:</strong></h1>
