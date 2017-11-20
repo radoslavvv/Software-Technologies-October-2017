@@ -5,10 +5,10 @@
 
         ---
 
-        <h1><strong>Exercises:</strong></h1>
+ <h1><strong>Exercises:</strong></h1>
 
-        <ol type="1">
-            <span>HTML and CSS:</span>
+<ol type="1">
+<span>HTML and CSS:</span>
                 <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/01.HTMLandCSS-Exercises">HTML and CSS - Exercises</a></li>
                 <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/02.HTMLandCSS-Blog">HTML and CSS - Blog</a></li>
             <span>JavaScript:</span>
@@ -16,7 +16,7 @@
                 <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/02.JavaScript-Syntax-Exercises">JavaScript Syntax - Exercises</a></li>
                 <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/03.JavaScript-Calculator">JavaScript - Calculator</a></li>
                 <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/04.JavaScript-Blog">JavaScript - Blog</a></li>
-        </ol>
+</ol>
         
 
 
