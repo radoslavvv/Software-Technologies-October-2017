@@ -8,8 +8,8 @@
  <h1><strong>Exercises:</strong></h1>
 
 <ol type="1">
-  <li>HTML and CSS:</li>
-    <li><li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/01.HTMLandCSS-Exercises">HTML and CSS - Exercises</a></li>
+  <ol>HTML and CSS:</ol>
+    <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/01.HTMLandCSS-Exercises">HTML and CSS - Exercises</a></li>
       <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/01.%20HTMLandCSS/02.HTMLandCSS-Blog">HTML and CSS - Blog</a></li>
             <span>JavaScript:</span>
                 <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/02.JavaScript/01.JavaScript-Syntax-Lab">JavaScript Syntax - Lab</a></li>
