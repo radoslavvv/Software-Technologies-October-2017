@@ -1,0 +1,19 @@
+.firstDiv{
+    border: dotted 3px blue;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.secondDiv{
+    border: dashed 3px red;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
+.thirdDiv{
+    border: solid 3px green;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+}
