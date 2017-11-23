@@ -22,10 +22,10 @@
     </ol>
 	<li>PHP:</li>
 	<ol type="1">
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.PHP/01.PHP-Syntax-Lab">PHP Syntax - Lab</a></li>
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.PHP/02.PHP-Syntax-Exercises">PHP Syntax - Exercises</a></li>
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.PHP/03.PHP-Calculator">PHP - Calculator</a></li>
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.PHP/04.PHP-Blog">PHP - Blog</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.%20PHP/01.PHP-Syntax-Lab">PHP Syntax - Lab</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.%20PHP/02.PHP-Syntax-Exercises">PHP Syntax - Exercises</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.%20PHP/03.PHP-Calculator">PHP - Calculator</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/03.%20PHP/04.PHP-Blog">PHP - Blog</a></li>
     </ol>
 </ol>
         
