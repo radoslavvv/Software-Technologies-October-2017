@@ -1,0 +1,69 @@
+{% extends 'base.html.twig' %}
+
+{% block main %}
+    <div class="container body-content span=8 offset=2">
+        <div class="well">
+            <form class="form-inline" action="{{ path('index') }}" method="POST">
+                <fieldset>
+                    <div class="form-group">
+                        <div class="col-sm-1 ">
+                            <input type="text" class="form-control" id="leftOperand" placeholder="Left Operand"
+                                   name="calculator[leftOperand]" value="{{ calculator.leftOperand ?? '' }}">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 ">
+                            <select class="form-control" name="calculator[operator]">
+                                <option disabled>Arithmetic operators:</option>
+                                <option value="+" {{ calculator is defined and calculator.operator == '+' ? 'selected' : '' }}>+ ( Addition )</option>
+                                <option value="-" {{ calculator is defined and calculator.operator == '-' ? 'selected' : '' }}>- ( Subtraction )</option>
+                                <option value="*" {{ calculator is defined and calculator.operator == '*' ? 'selected' : '' }}>* ( Multiplication)</option>
+                                <option value="/" {{ calculator is defined and calculator.operator == '/' ? 'selected' : '' }}>/ ( Division )</option>
+                                <option value="^" {{ calculator is defined and calculator.operator == '^' ? 'selected' : '' }}>^ ( Power )</option>
+                                <option disabled>Bitwise operators:</option>
+                                <option value="AND" {{ calculator is defined and calculator.operator == "AND" ? 'selected' : '' }}>AND</option>
+                                <option value="OR" {{ calculator is defined and calculator.operator == "OR" ? 'selected' : '' }}>OR</option>
+                                <option value="XOR" {{ calculator is defined and calculator.operator == "XOR" ? 'selected' : '' }}>XOR</option>
+                                <option disabled>Conversion: (from base)</option>
+                                <option value="2" {{ calculator is defined and calculator.operator == "2" ? 'selected' : '' }}>Base 2</option>
+                                <option value="10" {{ calculator is defined and calculator.operator == "10" ? 'selected' : '' }}>Base 10</option>
+                                <option value="16" {{ calculator is defined and calculator.operator == "16" ? 'selected' : '' }}>Base 16</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="rightOperand" placeholder="Right Operand"
+                                   name="calculator[rightOperand]" value="{{ calculator.rightOperand ?? '' }}">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-2 ">
+                            <p>=</p>
+                        </div>
+                    </div>
+
+                    {% if form is defined %}
+                        {{ form_row(form._token) }}
+                    {% endif %}
+
+                    <div class="form-group">
+                        <div class="col-sm-4 ">
+                            <input type="text" class="form-control" id="result" placeholder="Result"
+                                   name="result" value="{{ result ?? '' }}">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-4 col-sm-offset-4">
+                            <button type="submit" class="btn btn-primary">Calculate</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+{% endblock %}
