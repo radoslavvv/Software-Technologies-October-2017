@@ -29,10 +29,10 @@
     </ol>
 	<li>Java:</li>
 	<ol type="1">
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/01.Java-Syntax-Lab">Java Syntax - Lab</a></li>
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/02.Java-Syntax-Exercises">Java Syntax - Exercises</a></li>
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/03.Java-Calculator">Java - Calculator</a></li>
-        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/04.Java-Blog">Java - Blog</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/01.%20Java-Syntax-Lab">Java Syntax - Lab</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/02.%20Java-Syntax-Exercises">Java Syntax - Exercises</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/03.%20Java-Calculator">Java - Calculator</a></li>
+        <li><a href="https://github.com/radoslavvv/Software-Technologies-October-2017/tree/master/04.%20Java/04.%20Java-Blog">Java - Blog</a></li>
     </ol>
 </ol>
         
