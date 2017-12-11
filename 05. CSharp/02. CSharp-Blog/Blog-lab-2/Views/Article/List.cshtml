@@ -1,0 +1,34 @@
+﻿@model List<Blog_lab_2.Models.Article>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<div class="container">
+    <div class="row">
+        @foreach (var article in Model)
+        {
+            <div class="col-sm-6">
+                <article>
+                    <header>
+                        <h2>@Html.ActionLink(@article.Title, "Details", "Article", new { @id = article.Id }, null)</h2>
+                    </header>
+                    <p>
+                        @article.Content
+                    </p>
+                    <footer class="pull-left">
+                        <small class="author">
+                             Author: @article.Author.FullName
+                        </small>
+                    </footer>
+                    <footer class="pull-right">
+                        <small class="author">
+                            Published: @String.Format($"{article.DateAdded.Day}/{article.DateAdded.Month}/{article.DateAdded.Year}")
+                        </small>
+                    </footer>
+                </article>
+            </div>
+        }
+    </div>
+</div>
+<hr />
