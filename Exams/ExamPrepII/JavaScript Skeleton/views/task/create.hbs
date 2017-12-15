@@ -1,0 +1,22 @@
+<div id="create-wrapper">
+    <section class="create">
+        <article>
+            <form action="/create" method="POST">
+                <div class="row">
+                    <label for="task">Task:</label>
+                    <input type="text" id="task" name="title" value="{{title}}">
+                </div>
+                <div class="row">
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments"> {{comments}}</textarea>
+                </div>
+                <button type="submit">Create</button>
+            </form>
+
+            {{#if error }}
+                <p class="error">{{error}}</p>
+            {{/if}}
+
+        </article>
+    </section>
+</div>
